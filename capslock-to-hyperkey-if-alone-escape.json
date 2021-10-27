@@ -1,8 +1,8 @@
 {
-  "title": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)",
+  "title": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Escape if alone)",
   "rules": [
     {
-      "description": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)",
+      "description": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Escape if alone)",
       "manipulators": [
         {
           "from": {
@@ -20,7 +20,7 @@
           ],
           "to_if_alone": [
             {
-              "key_code": "caps_lock"
+              "key_code": "escape"
             }
           ],
           "type": "basic"
