@@ -1,12 +1,12 @@
 {
-  "title": "Tab → Hyper Key (⌃⌥⇧⌘)",
+  "title": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)",
   "rules": [
     {
-      "description": "Tab → Hyper Key (⌃⌥⇧⌘)",
+      "description": "Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)",
       "manipulators": [
         {
           "from": {
-            "key_code": "tab"
+            "key_code": "caps_lock"
           },
           "to": [
             {
@@ -16,6 +16,11 @@
                 "left_control",
                 "left_option"
               ]
+            }
+          ],
+          "to_if_alone": [
+            {
+              "key_code": "caps_lock"
             }
           ],
           "type": "basic"
