@@ -18,10 +18,7 @@
           "type": "basic"
         }
       ]
-    }
-  ],
-  "title": "Right Control → English",
-  "rules": [
+    },
     {
       "description": "Right Control → English",
       "manipulators": [
