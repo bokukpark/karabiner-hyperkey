@@ -10,7 +10,7 @@
           },
           "to": [
             {
-              "select_input_srouce": {
+              "select_input_source": {
                 "language": "^ko$"
               }
             }
@@ -31,7 +31,7 @@
           },
           "to": [
             {
-              "select_input_srouce": {
+              "select_input_source": {
                 "language": "^en$"
               }
             }
