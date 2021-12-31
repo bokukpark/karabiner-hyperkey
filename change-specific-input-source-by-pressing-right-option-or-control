@@ -1,1 +1,23 @@
-
+{
+  "title": "Right Option → Korean",
+  "rules": [
+    {
+      "description": "Right Option → Korean",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "right_option"
+          },
+          "to": [
+            {
+              "select_input_srouce": {
+                "language": "^ko$"
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
