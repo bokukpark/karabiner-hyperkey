@@ -19,5 +19,26 @@
         }
       ]
     }
+  ],
+  "title": "Right Control → English",
+  "rules": [
+    {
+      "description": "Right Control → English",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "right_control"
+          },
+          "to": [
+            {
+              "select_input_srouce": {
+                "language": "^en$"
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
   ]
 }
