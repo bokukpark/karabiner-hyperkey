@@ -21,6 +21,11 @@
           "to_if_alone": [
             {
               "key_code": "escape"
+            },
+            {
+              "select_input_source": {
+                "language": "^en$"
+              }
             }
           ],
           "type": "basic"
