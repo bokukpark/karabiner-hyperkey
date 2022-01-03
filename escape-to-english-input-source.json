@@ -1,0 +1,23 @@
+{
+  "title": "Ecapse → English Input Source",
+  "rules": [
+    {
+      "description": "Escape → English Input Source",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "escape"
+          },
+          "to": [
+            {
+              "select_input_source": {
+                "language": "^en$"
+              }
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
